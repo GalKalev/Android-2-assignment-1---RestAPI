@@ -1,0 +1,32 @@
+.card{
+    display: inline-block;
+    border: 1px solid blue;
+    border-radius: 10px;
+    width: calc(20%);
+    max-height: fit-content;
+    text-align: center;
+    padding:5px;
+}
+
+#buttonDiv{
+    text-align: center;
+    top: 0%;
+    left: 50%;
+}
+
+#fetchButton{
+    background-color: blue;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:4px 2px;
+    cursor: pointer;
+    color: white;
+}
+
+#fetchButton:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
